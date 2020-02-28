@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap");
+
+body {
+    background: #fdfff4;
+    font-family: sans-serif;
+}
+
+section {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: "Bubblegum Sans";
+}
+
+h1 {
+    /* I don't want red anymore, I want it to be blue!
+  Help me change it! */
+    color: red;
+    font-size: 3em;
+    text-align: center;
+}
+
+/* How can I make my other section titles blue too? */
+
+.fireworks {
+    text-align: center;
+    /* Can you help me make my fireworks bigger? */
+    /* How about smaller? */
+    font-size: 4em;
+}

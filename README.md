@@ -4,6 +4,8 @@
 
 ### HTML
 
+All related code is in `html/` folder.
+
 Outline number corresponds to the file number. i.e. 2 here corresponds to `index2.html`.
 
 1. Welcome!
@@ -24,3 +26,9 @@ Outline number corresponds to the file number. i.e. 2 here corresponds to `index
 12. Congrats on learning HTML!
     - What did you learn? Let's recap!
     - Now we're going to learn some CSS.
+
+## CSS
+
+All related code is in `css/` folder
+
+Same as HTML, numbers refer
