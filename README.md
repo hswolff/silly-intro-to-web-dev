@@ -35,10 +35,11 @@ All related code is in `css/` folder
 
    - Introducing CSS.
    - "It's what lets you style your HTML.
+   - "CSS is how you bring your pages to life! It's how you make them pretty and fun to look at!"
    - "It's comprised of selectors and rules. You create selectors that match HTML tags on the page and set rules on how those tags should look."
    - "Confused? May be easier to show then tell."
 
-2. Our first CSS rule. (may be a longer lesson)
+2. Our first CSS rule.
 
    - The first thing I want to do together is change the background of the page.
    - There's an HTML element we've not talked about yet, but you've seen in every lesson.
@@ -49,33 +50,73 @@ All related code is in `css/` folder
    - Task: Can you help me change that to just `blue`?
    - Answer: Just change the value!
 
-3. Changing our section titles
+3. Pump up the volume
 
-   - Now that we're already changing colors, I want to change the color the title of my page, the thing inside the <h1> tag.
-   - We already have a selector in our css, can you help me change the color to green?
-   - Answer: change the color value.
-   - Discussion: We can duplicate selectors in two locations. So you could put that rule in both locations.
+   - Can we make our title bigger? Our <h1>?
+   - I want to really make sure no one can miss it.
+   - Task: Can you figure out what CSS to change to make our title bigger?
+   - Answer: change font-size
 
-4. Changing all the sections!
+4. Making a pretty layout
 
-   - How could we do this same thing to our other sections?
-   - And only to our <h2> sections?
-   - Answer: make a new selector for h2
+   - CSS can also help us arrange stuff on our page nicely!
+   - Right now we have a very boring list of ingredients.
+   - Instead it'd be nicer if they were laid out next to each other.
+   - If you recall we already used a class name when we made our fireworks bigger.
+   - I've made a new class name called "prettyLayout"
+   - Task: Can you add it to our ingredients to make them look nicer?
+   - Answer: add class
+   - Discussion: Wow! Now they're laid out nicely next to each other. With just one small HTML change we made that look a whole lot nicer!
 
-5. Enhance our fireworks!
+5. Centering our cake
 
-   - Remember how we made our fireworks bigger with fixing that typo?
-   - We used this thing called a class name. Which is like a custom element selector.
-   - In this case I want to make those fireworks even bigger.
-   - How can we do that?
-   - Answer: Increase the font-size number!
+   - Let's try another positioning exercise!
+   - I don't like that my cake is lopsided.
+   - I created a class named "center".
+   - Task: Can you make our cake centered?
+   - Answer: add class center to cake image.
 
-6. Congrats on learning CSS!
+6. Getting interactive
 
-   - Wrap up about what we did.
+   - CSS can also make your page feel alive.
+   - You can use CSS to change things when people interact with the page.
+   - I've stubbed out one of those things, such that when you hover over the title on the page
+     I want its color to change.
+   - Task: can you set the color to green so when I over it changes?
+   - Answer: add color: green.
 
-7. What's next?
+7. Fancy interactions
 
-   - If you can believe it there's even more HTML and CSS to learn.
-   - We only scratched the surface.
-   - Hopefully you're excited to learn even more!
+   - CSS can also do animations!
+   - The simplest is called a transition where CSS will animate your page for you.
+   - I've added one of these to our title.
+   - Try hovering over the title and see what happens. Very cool, huh?
+   - Task: can you try to make something else transition?
+   - Answer: change the transition value to use font-size instead.
+
+8. Getting animated
+
+   - CSS can also do more fancy animations.
+   - I've created one for us to play with. I have it set to the class name "scared"
+   - I want our egg to be a "scared egg" so it shakes when someone hovers over it.
+   - Task: Can you add this class name to our egg?
+   - Answer: add the class
+
+9. Jumping for joy
+
+   - Let's do that one more time.
+   - I have a class I created call "excited" that adds another hover animation.
+   - Task: Can you add that to our cake image?
+   - Answer: add the class. It jumps for joy!
+
+10. Congrats on learning CSS!
+
+- Wow! We just learned so much!
+- CSS is so powerful! It can help make your page prettier and make it feel alive!
+- It's so exciting what it can do!
+
+11. What's next?
+
+- If you can believe it there's even more HTML and CSS to learn.
+- We only scratched the surface.
+- Hopefully you're excited to learn even more!
