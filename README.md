@@ -21,7 +21,7 @@ Outline number corresponds to the file number. i.e. 2 here corresponds to `index
 7. Emoji support too!
 8. Mismatched titles
 9. Small nutrition info
-10. Picture worth a thousand words (img tag)
+10. Picture worth a thousand words
 11. Class typo!
 12. Congrats on learning HTML!
     - What did you learn? Let's recap!
