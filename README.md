@@ -39,15 +39,15 @@ All related code is in `css/` folder
    - "It's comprised of selectors and rules. You create selectors that match HTML tags on the page and set rules on how those tags should look."
    - "Confused? May be easier to show then tell."
 
-2. Our first CSS rule.
+2. Our first CSS rule
 
    - The first thing I want to do together is change the background of the page.
    - There's an HTML element we've not talked about yet, but you've seen in every lesson.
    - The <body> tag.
    - This is what defines what is shown on the page.
    - If we hop over to our .css file we can see we have a body selector and we're setting two rules on it.
-   - For now let's focus on the background rule. It's set to `azure`.
-   - Task: Can you help me change that to just `blue`?
+   - For now let's focus on the background rule. It's set to `blue`.
+   - Task: Can you help me change that to something more readable, like `azure`?
    - Answer: Just change the value!
 
 3. Pump up the volume
@@ -63,7 +63,7 @@ All related code is in `css/` folder
    - Right now we have a very boring list of ingredients.
    - Instead it'd be nicer if they were laid out next to each other.
    - If you recall we already used a class name when we made our fireworks bigger.
-   - I've made a new class name called "prettyLayout"
+   - I've made a new class name called `prettyLayout`
    - Task: Can you add it to our ingredients to make them look nicer?
    - Answer: add class
    - Discussion: Wow! Now they're laid out nicely next to each other. With just one small HTML change we made that look a whole lot nicer!
@@ -72,7 +72,7 @@ All related code is in `css/` folder
 
    - Let's try another positioning exercise!
    - I don't like that my cake is lopsided.
-   - I created a class named "center".
+   - I created a class named `center`.
    - Task: Can you make our cake centered?
    - Answer: add class center to cake image.
 
@@ -83,7 +83,7 @@ All related code is in `css/` folder
    - I've stubbed out one of those things, such that when you hover over the title on the page
      I want its color to change.
    - Task: can you set the color to green so when I over it changes?
-   - Answer: add color: green.
+   - Answer: add `color: green`.
 
 7. Fancy interactions
 
@@ -92,12 +92,12 @@ All related code is in `css/` folder
    - I've added one of these to our title.
    - Try hovering over the title and see what happens. Very cool, huh?
    - Task: can you try to make something else transition?
-   - Answer: change the transition value to use font-size instead.
+   - Answer: change the transition value to use `font-size` instead.
 
 8. Getting animated
 
    - CSS can also do more fancy animations.
-   - I've created one for us to play with. I have it set to the class name "scared"
+   - I've created one for us to play with. I have it set to the class name `scared`
    - I want our egg to be a "scared egg" so it shakes when someone hovers over it.
    - Task: Can you add this class name to our egg?
    - Answer: add the class
@@ -105,7 +105,7 @@ All related code is in `css/` folder
 9. Jumping for joy
 
    - Let's do that one more time.
-   - I have a class I created call "excited" that adds another hover animation.
+   - I have a class I created call `excited` that adds another hover animation.
    - Task: Can you add that to our cake image?
    - Answer: add the class. It jumps for joy!
 

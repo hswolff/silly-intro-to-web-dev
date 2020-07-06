@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap");
+
+body {
+    background: blue;
+    font-family: sans-serif;
+}
+
+section {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: "Bubblegum Sans";
+}
+
+h1 {
+    color: red;
+    font-size: 3em;
+    text-align: center;
+    transition: color linear 0.5s;
+}
+
+h1:hover {}
+
+.fireworks {
+    text-align: center;
+    font-size: 4em;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.prettyLayout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.prettyLayout li {
+    list-style: none;
+    font-size: 4em;
+    justify-self: center;
+}
+
+.scared:hover {
+    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+.excited:hover {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: jump;
+    animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+}
+
+@keyframes jump {
+    0% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    10% {
+        transform: scale(1.1, .9) translateY(0);
+    }
+
+    30% {
+        transform: scale(.9, 1.1) translateY(-100px);
+    }
+
+    50% {
+        transform: scale(1.05, .95) translateY(0);
+    }
+
+    57% {
+        transform: scale(1, 1) translateY(-7px);
+    }
+
+    64% {
+        transform: scale(1, 1) translateY(0);
+    }
+
+    100% {
+        transform: scale(1, 1) translateY(0);
+    }
+}
