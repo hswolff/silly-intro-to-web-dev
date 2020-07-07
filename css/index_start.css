@@ -6,7 +6,7 @@ body {
 }
 
 section {
-    width: 500px;
+    width: 400px;
     margin: 0 auto;
 }
 
@@ -19,7 +19,6 @@ h1 {
     color: red;
     font-size: 3em;
     text-align: center;
-    transition: color linear 0.5s;
 }
 
 h1:hover {}

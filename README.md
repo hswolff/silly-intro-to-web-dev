@@ -100,7 +100,7 @@ All related code is in `css/` folder
    - I've created one for us to play with. I have it set to the class name `scared`
    - I want our egg to be a "scared egg" so it shakes when someone hovers over it.
    - Task: Can you add this class name to our egg?
-   - Answer: add the class
+   - Answer: add the class `scared`
 
 9. Jumping for joy
 
